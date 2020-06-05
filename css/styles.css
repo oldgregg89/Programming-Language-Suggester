@@ -2,6 +2,10 @@
   text-size-adjust: 80%;
 }
 
+.formbox {
+  border-style: inset;
+}
+
 .jumbotron {
   background-color: lightblue;
 }
@@ -43,7 +47,7 @@ body {
 }
 
 .programLang6 {
-  display: none;
+  display: ;
 }
 
 .resultImag {

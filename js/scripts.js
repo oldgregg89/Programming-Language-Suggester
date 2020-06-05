@@ -1,31 +1,66 @@
 
-const fridgeProblem = function (){
-  if
+const goCheck = function (){
+  if (0){
+    return true;
+  }
+  else {
+    return false;
+  }
+
 }
 
-const aliensProblem = function (){
-  if
+const javaScriptCheck = function (){
+  if (0){
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
-const planeteProblem = function (){
-  if
+const pythonCheck = function (){
+  if 
 }
 
-const value = function (){
-  if
+const rubyCheck = function (){
+  if (0){
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
+const rustCheck = function (){
+  if (0){
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+const swiftCheck = function (){
+  if (0){
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+
+//const go = (sum <=
+  //const javaS = (sum <= )
+  //const python = (sum <= )
+  //const ruby = (sum <= )
+  //const rust = (sum <= )
+  //const swift = (sum >= )
+  //const sum = fridge + aliens + planet + chickenRoad
 
 $(document).ready(function(){
-  $("form#programPerson").submit(event){}
-  const go = 
-  const javaS
-  const python
-  const ruby 
-  const rust
-  const swift
-  const sum = fridge + aliens + planet
-
+  $("form#programPerson").submit(event){
+  
     if () {
       $(".programLang1").show();
       $(".programLang2").show();
