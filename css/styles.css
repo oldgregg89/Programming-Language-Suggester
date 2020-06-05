@@ -1,3 +1,11 @@
+.titleintro {
+  text-size-adjust: 80%;
+}
+
+.jumbotron {
+  background-color: lightblue;
+}
+
 .classlanguage {
   max-width: auto;
   max-height: auto;
