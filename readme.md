@@ -19,7 +19,8 @@ __
 
 ## Known Bugs
 
-_No known bugs_
+* The users name might not show up when you hit submit
+* The Buttons won't reset after you click them
 
 ## Support and contact details
 

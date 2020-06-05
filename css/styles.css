@@ -29,27 +29,27 @@ body {
   font-size: 200%;
 }
 
-.programLang1 {
+#programLang1 {
   display: none;
 }
 
-.programLang2 {
+#programLang2 {
   display: none;
 }
 
-.programLang3 {
+#programLang3 {
   display: none;
 }
 
-.programLang4 {
+#programLang4 {
   display: none;
 }
 
-.programLang5 {
+#programLang5 {
   display: none;
 }
 
-.programLang6 {
+#programLang6 {
   display: none;
 }
 
