@@ -1,12 +1,12 @@
-# _Doc readme_
+# _Programming Language Suggestor readme_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This application helps people decide which programming language to persue. ver 1 2020_
 
-#### By _Ian Gregg & (Co author)_
+#### By _Ian Gregg_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Through asking a series of questions this application helps people who are struggling to pick a programming language to persue. Through matching them with the language that best fits their personality based on their input_
 
 ## Setup/Installation Requirements
 
@@ -15,7 +15,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * Create a GitHub account
 * Clone this repo to yuor desktop and run npm install to install all dependences.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+__
 
 ## Known Bugs
 
@@ -23,9 +23,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_Contact Ian Gregg: iangregg188@gmail.com
-or
-(co author)_
+_Contact Ian Gregg: iangregg188@gmail.com_
 
 ## Technologies Used
 
@@ -33,7 +31,7 @@ _The Technologies used in the making of this software was Chrome browser, Visual
 
 ### License
 
-Copyright (c) 2016 **_Ian Gregg & (Co author)_**
+Copyright (c) 2016 **_Ian Gregg_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
