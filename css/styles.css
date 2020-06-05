@@ -45,3 +45,8 @@ body {
 .programLang6 {
   display: none;
 }
+
+.resultImag {
+  max-width: 500px;
+  max-height: 500px;
+}
