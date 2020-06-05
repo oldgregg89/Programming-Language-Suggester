@@ -26,6 +26,7 @@
 
 body {
   background-color: khaki;
+  font-size: 200%;
 }
 
 .programLang1 {
@@ -57,6 +58,3 @@ body {
   max-height: 500px;
 }
 
-input {
-  padding-left: 10px;
-}
