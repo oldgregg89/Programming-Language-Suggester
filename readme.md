@@ -1,6 +1,6 @@
 # _Programming Language Suggestor readme_
 
-#### _This application helps people decide which programming language to persue. ver 1 2020_
+#### _This application helps people decide which programming language to persue. ver 1.0 (2020)_
 
 #### By _Ian Gregg_
 
