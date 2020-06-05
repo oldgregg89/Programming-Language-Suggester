@@ -1,4 +1,6 @@
 
+
+
 const goCheck = function (){
   if (0){
     return true;
@@ -10,7 +12,7 @@ const goCheck = function (){
 }
 
 const javaScriptCheck = function (){
-  if (0){
+  if (){
     return true;
   }
   else {
@@ -57,10 +59,12 @@ const swiftCheck = function (){
   //const rust = (sum <= )
   //const swift = (sum >= )
   //const sum = fridge + aliens + planet + chickenRoad
+  // sum total of equations is 16, two of the numbers are going to have to be 3 instead of value of 2
 
 $(document).ready(function(){
   $("form#programPerson").submit(event){
-  
+    event.preventDefault ();
+
     if () {
       $(".programLang1").show();
       $(".programLang2").show();

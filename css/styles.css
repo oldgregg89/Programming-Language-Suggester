@@ -3,11 +3,13 @@
 }
 
 .formbox {
+  text-indent: 10px;
   border-style: inset;
 }
 
 .jumbotron {
   background-color: lightblue;
+  border-style: ridge;
 }
 
 .classlanguage {
@@ -47,10 +49,14 @@ body {
 }
 
 .programLang6 {
-  display: ;
+  display: none;
 }
 
 .resultImag {
   max-width: 500px;
   max-height: 500px;
+}
+
+input {
+  padding-left: 10px;
 }
