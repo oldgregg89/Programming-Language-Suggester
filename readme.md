@@ -21,6 +21,7 @@ __
 
 * The users name might not show up when you hit submit (fixed)
 * The Buttons won't reset after you click them (fixed)
+* getting the values out of the Radio buttons (fixed)
 
 ## Support and contact details
 
