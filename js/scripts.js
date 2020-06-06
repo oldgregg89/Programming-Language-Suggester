@@ -1,7 +1,7 @@
 
 
-
-const goCheck = function (sumOfAll){
+//const goCheck = 
+function goCheck (sumOfAll){
   if (sumOfAll >= 0 && sumOfAll <= 3){ 
     return true;
   }
@@ -11,7 +11,8 @@ const goCheck = function (sumOfAll){
 
 }
 
-const javaScriptCheck = function (sumOfAll){
+//const javaScriptCheck =
+function javaScriptCheck (sumOfAll){
   if (sumOfAll >= 4 && sumOfAll <= 6){
     return true;
   }
@@ -20,7 +21,8 @@ const javaScriptCheck = function (sumOfAll){
   }
 }
 
-const pythonCheck = function (sumOfAll){
+//const pythonCheck = 
+function pythonCheck (sumOfAll){
   if (sumOfAll >= 4 && sumOfAll <= 5){
     return true;
   }
@@ -28,8 +30,8 @@ const pythonCheck = function (sumOfAll){
     return false;
   }
 }
-
-const rubyCheck = function (sumOfAll){
+//const rubyCheck = 
+function rubyCheck (sumOfAll){
   if (sumOfAll >= 10 && sumOfAll <= 11){
     return true;
   }
@@ -37,8 +39,8 @@ const rubyCheck = function (sumOfAll){
     return false;
   }
 }
-
-const rustCheck = function (sumOfAll){
+//const rustCheck = 
+function rustCheck (sumOfAll){
   if (sumOfAll >= 12 && sumOfAll <= 13){
     return true;
   }
@@ -46,8 +48,8 @@ const rustCheck = function (sumOfAll){
     return false;
   }
 }
-
-const swiftCheck = function (sumOfAll){
+//const swiftCheck = 
+function swiftCheck (sumOfAll){
   if (sumOfAll >= 14 && sumOfAll <= 16){
     return true;
   }
@@ -68,11 +70,13 @@ $(document).ready(function(){
   $("form#programPerson").submit(function(event) {
     event.preventDefault ();
 
-    const num1 = parseInt($(".fridgeIssue").val());
-    const num2 = parseInt($(".alienProb").val());
-    const num3 = parseInt($(".planetProb").val());
-    const num4 = parseInt($(".chickenProb").val());
+    const num1 = parseInt($(".fridgeIssue:checked").val());
+    const num2 = parseInt($(".alienProb:checked").val());
+    const num3 = parseInt($(".planetProb:checked").val());
+    const num4 = parseInt($(".chickenProb:checked").val());
     const sumOfAll = (num1 + num2 + num3 + num4)
+    let userImput = $("#userName").val()
+    $(".userNameValue").text(userImput)
 
     if (goCheck (sumOfAll)) {
       $("#programLang1").show();
@@ -81,57 +85,51 @@ $(document).ready(function(){
       $("#programLang4").hide();
       $("#programLang5").hide();
       $("#programLang6").hide();
-      return ("#userName")
       //GO result 
       }
-      else if (javaScriptCheck (sumOfAll)) {
+    else if (javaScriptCheck (sumOfAll)) {
         $("#programLang1").hide();
         $("#programLang2").show();
         $("#programLang3").hide();
         $("#programLang4").hide();
         $("#programLang5").hide();
         $("#programLang6").hide();
-        return ("#userName")
         //JavaScript result 
         }
-      else if (pythonCheck (sumOfAll)) {
+    else if (pythonCheck (sumOfAll)) {
         $("#programLang1").hide();
         $("#programLang2").hide();
         $("#programLang3").show();
         $("#programLang4").hide();
         $("#programLang5").hide();
         $("#programLang6").hide();
-        return ("#userName")
         //Python result 
         }
-      else if (rubyCheck (sumOfAll)) {
+    else if (rubyCheck (sumOfAll)) {
         $("#programLang1").hide();
         $("#programLang2").hide();
         $("#programLang3").hide();
         $("#programLang4").show();
         $("#programLang5").hide();
         $("#programLang6").hide();
-        return ("#userName")
         //Ruby result 
         }
-      else if (rustCheck (sumOfAll)) {
+    else if (rustCheck (sumOfAll)) {
         $("#programLang1").hide();
         $("#programLang2").hide();
         $("#programLang3").hide();
         $("#programLang4").hide();
         $("#programLang5").show();
         $("#programLang6").hide();
-        return ("#userName")
         //Rust result
         } 
-      else {
+    else {
         $("#programLang1").hide();
         $("#programLang2").hide();
         $("#programLang3").hide();
         $("#programLang4").hide();
         $("#programLang5").hide();
         $("#programLang6").show();
-        return ("#userName")
         //Swift result 
         }
   });
