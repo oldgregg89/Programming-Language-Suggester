@@ -19,8 +19,8 @@ __
 
 ## Known Bugs
 
-* The users name might not show up when you hit submit
-* The Buttons won't reset after you click them
+* The users name might not show up when you hit submit (fixed)
+* The Buttons won't reset after you click them (fixed)
 
 ## Support and contact details
 
