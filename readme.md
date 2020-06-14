@@ -10,10 +10,9 @@ _Through asking a series of questions this application helps people who are stru
 
 ## Setup/Installation Requirements
 
-
-* Have an internet connection 
-* Create a GitHub account
-* Clone this repo to yuor desktop and run npm install to install all dependences.
+* Click on clone and clone this repo to your desktop.
+* From there navigate to desktop to where you cloned this repo.
+* double click on index.html file and from there the software will be ready to run.
 
 __
 
@@ -25,7 +24,7 @@ __
 
 ## Support and contact details
 
-_Contact Ian Gregg: iangregg188@gmail.com_
+_Contact Ian Gregg: <iangregg188@gmail.com>_
 
 ## Technologies Used
 
